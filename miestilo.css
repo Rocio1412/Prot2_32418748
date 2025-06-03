@@ -1,0 +1,97 @@
+/* miestilo.css */
+
+/* General */
+body {
+    background-color: #e9ecef; /* gris claro */
+    color: #212529; /* negro oscuro */
+    font-family: Arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #0d6efd; /* azul Bootstrap */
+    font-weight: bold;
+}
+
+p {
+    color: #212529; /* negro */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0d6efd; /* azul */
+}
+
+.navbar a {
+    color: #ffffff !important;
+}
+
+.navbar a:hover {
+    color: #cce5ff !important;
+}
+
+/* Cards */
+.card {
+    background-color: #f8f9fa; /* fondo gris muy claro */
+    border: 1px solid #0d6efd; /* borde azul */
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.card-title {
+    color: #0d6efd;
+}
+
+.card-text {
+    color: #212529;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+}
+
+.btn-primary:hover {
+    background-color: #084298;
+    border-color: #084298;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40; /* gris oscuro */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Forms */
+form label {
+    color: #0d6efd;
+}
+
+form input, form textarea, form select {
+    border: 1px solid #0d6efd;
+}
+
+form input:focus, form textarea:focus, form select:focus {
+    box-shadow: 0 0 5px #0d6efd;
+    border-color: #0d6efd;
+}
+
+/* Carousel */
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Custom sections */
+.section-container {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+}
